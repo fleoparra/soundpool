@@ -10,15 +10,23 @@ dependencies:
   flutter:
     sdk: flutter
 
-  soundpool_platform_interface: 
-    path : ../soundpool_platform_interface
+  soundpool_platform_interface:
+    git:
+      url: https://github.com/fleoparra/soundpool_platform_interface.git
+      ref: master
+      path: soundpool_platform_interface
   
-  soundpool_web:  
-    path: ../soundpool_web
-  
+  soundpool_web:
+    git:
+      url: https://github.com/fleoparra/soundpool_web.git
+      ref: master
+      path: soundpool_web
+ 
   soundpool_macos:
-    path: ../soundpool_macos
-
+    git:
+      url: https://github.com/fleoparra/soundpool_macos.git
+      ref: master
+      path: soundpool_macos
     
     
 flutter:
